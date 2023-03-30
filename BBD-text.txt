@@ -1,0 +1,5 @@
+File >> New >> Other >> Maven Projects >> maven-archetype-quickstart
+
+File >> Configure >> convert to cucumber
+
+POM: Cucumber-Java ; Cucumber-junit
