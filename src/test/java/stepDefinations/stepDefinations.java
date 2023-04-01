@@ -8,8 +8,27 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class stepDefination {
+public class stepDefinations {
 
+
+    @Given("^validate the browser$")
+    public void validate_the_browser() throws Throwable {
+    	System.out.println("Deciding the browser to open");
+
+    }
+
+    @When("^Browser is tiggered$")
+    public void browser_is_tiggered() throws Throwable {
+    	System.out.println("Browser is triggered");
+
+    }
+
+    @Then("^check if browser is displayed$")
+    public void check_if_browser_is_displayed() throws Throwable {
+    	System.out.println("Browser is started");
+
+    }
+    
     @Given("^User is on NetBanking landing page$")
     public void user_is_on_netbanking_landing_page() throws Throwable {
         
