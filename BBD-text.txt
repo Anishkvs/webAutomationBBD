@@ -1,0 +1,15 @@
+File >> New >> Other >> Maven Projects >> maven-archetype-quickstart
+
+File >> Configure >> convert to cucumber
+
+POM: Cucumber-Java ; Cucumber-junit
+
+tags= "@SmokeTest" {Smoke only execute}
+tags= "@SmokeTest or @RegTest" {Smoke or RegTest are execute}
+ 
+tags= "@SmokeTest and @RegTest" {It execute only, if they have both Smoke and RegTest}
+
+tags = "not @SanityTest" {Exclude Sanity test}
+tags= "@SmokeTest , @RegTest" 
+
+Background: {This is the keyword to execute the pre launcher script}
